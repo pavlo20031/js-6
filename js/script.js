@@ -29,7 +29,7 @@ for (let i = numberMin; i <= numberMax; i += 1) {
 
 // Number n
 const n = 100;
-for (let i = 0; i <= 200; i++) {
+for (let i = 0; i < n; i++) {
   console.log(i);
   if (i >= n) {
     break;
