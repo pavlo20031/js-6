@@ -12,7 +12,7 @@ for (let i = min; i <= max; i += 1) {
   if (i === 0) {
     continue;
   }
-  if (i % 2 === 0) {
+  if (i % 2 !== 0) {
     console.log(i);
   }
 }
